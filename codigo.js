@@ -5,7 +5,7 @@ const $days = document.getElementById('days'),
  $finalMessage = document.querySelector('.final-sms');
 
 //fecha a futuro
-const countdownDate = new Date('Nov 30, 2022 22:51:00').getTime();
+const countdownDate = new Date('Dec 31, 2022 00:00:00').getTime();
 
 //para que nuestros segundos se vayan actualizando cada milisegundo vamos a usar un setInterval
 let interval = setInterval(function(){

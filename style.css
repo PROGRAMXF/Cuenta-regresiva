@@ -15,13 +15,15 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: cadetblue;
+  background-image: url(./imagen.jpg);  
+  background-size: cover;
 }
 .countdown {
   display: flex;
   justify-content: space-evenly;
   width: 50%;
   flex-wrap: wrap;
+  
 }
 .countdown div {
   display: grid;
@@ -30,21 +32,22 @@ body {
 }
 h1 {
   text-align: center;
-  color: white;
-  font-size: 40px;
+  color: black;
+  font-size: 50px;
   padding: 30px 10px;
+  
 }
 p {
   display: grid;
   place-items: center;
-  border: solid 1px #fff;
+  border: solid 2.5px rgb(22, 3, 3);
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  color: aquamarine;
+  color: black;
   font-size: 2rem;
   font-weight: bold;
-  background-color: coral;
+  background-color:transparent;
 }
 span {
   display: block;
@@ -63,11 +66,14 @@ span {
   display: grid;
   place-items: center;
   transform: translateY(-100%);
-  transition: ease-in-out 0.5s;
-  background: #333;
+  transition: ease-in-out 0.1s;
+  background-image: url(./imagen2.jpg);
+  background-size: cover;
+
 }
 .final-sms h2 {
-  text-align: center;
+  text-align: center;  
   font-size: 100px;
-  color: white;
+  color: black;
+  padding: 30px 10px;
 }
